@@ -8,3 +8,8 @@ Adding a script to test your login flow never been so easy. Follow the twitter e
 Scrape information from web: 
 Ever needed to check a website and report something on a daily basis? We are here to help. Checkout https://github.com/cemheren/konvoy.io/blob/master/examples/watch-stock-amzn.js, which simply googles Amazon.com stock info and scrapes the rise in the stock price, alerts you if there is more than 10 percent change. With Konvoy + Puppeteer you don't need third party libraries to extract the information you want out of the interwebs. 
 
+# How easy is it? 
+Load playground (https://konvoy.io/playground) and select an example on the navbar list:
+![alt text](https://github.com/cemheren/konvoy.io/blob/master/images/konvoy.io_playground.png)
+Save it! (1440 mins = 1 day)
+![alt text](https://github.com/cemheren/konvoy.io/blob/master/images/konvoy.io_playground_amzn.png)
