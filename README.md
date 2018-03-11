@@ -11,5 +11,5 @@ Ever needed to check a website and report something on a daily basis? We are her
 # How easy is it? 
 Load playground (https://konvoy.io/playground) and select an example on the navbar list:
 ![alt text](https://github.com/cemheren/konvoy.io/blob/master/images/konvoy.io_playground.png)
-Save it! (1440 mins = 1 day)
+Make sure you are logged in and save it! (1440 mins = 1 day)
 ![alt text](https://github.com/cemheren/konvoy.io/blob/master/images/konvoy.io_playground_amzn.png)
