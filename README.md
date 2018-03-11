@@ -14,5 +14,5 @@ Load playground (https://konvoy.io/playground) and select an example on the navb
 Make sure you are logged in and save it! (1440 mins = 1 day)
 ![alt text](https://github.com/cemheren/konvoy.io/blob/master/images/konvoy.io_playground_amzn.png)
 
-#Issues
-Please find any issue you find on this repo so we can fix it as soon as possible. 
+# Issues
+Please file any issue you find on this repo so we can fix it as soon as possible. 
