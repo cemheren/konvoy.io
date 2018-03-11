@@ -19,7 +19,7 @@ const puppeteer = require('puppeteer');
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await resizePage(browser, page, 1000, 1600);
-  await page.goto('http://example.com');
+  await page.goto('https://github.com/cemheren/konvoy.io/tree/master/examples');
   await page.screenshot({path: 'example.jpeg'});
 
   await browser.close();
