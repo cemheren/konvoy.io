@@ -1,4 +1,10 @@
 # konvoy.io
-Konvoy.io public facing repository for any product issue
+Konvoy is a tool for running Puppeteer scripts in the cloud without the hassle of dealing with a cloud provider. With Konvoy you can deploy and schedule most Node.js/Puppeteer scripts with literally 3 clicks on your browser. 
 
-Issue tracker repository for https://konvoy.io. 
+# Example use cases
+Test scenario automation: 
+Adding a script to test your login flow never been so easy. Follow the twitter example here: https://github.com/cemheren/konvoy.io/blob/master/examples/test-login-flow-twitter.js which logs into twitter and checks whether the profile element is there. You can easily send messages to Slack, log your test results using simple if statements. And to schedule just hit 'Save' and set the timing interval. 
+
+Scrape information from web: 
+Ever needed to check a website and report something on a daily basis? We are here to help. Checkout https://github.com/cemheren/konvoy.io/blob/master/examples/watch-stock-amzn.js, which simply googles Amazon.com stock info and scrapes the rise in the stock price, alerts you if there is more than 10 percent change. With Konvoy + Puppeteer you don't need third party libraries to extract the information you want out of the interwebs. 
+
