@@ -11,17 +11,13 @@ async function sendToSlack(text, filename){
         filename); 
   };
 
-await page.goto('https://www.google.com/search?q=amazon+stock&oq=amazon+stock&aqs=chrome.0.0l2j69i60j0j69i60j0.2302j1j7&sourceid=chrome&ie=UTF-8');
+await page.goto('https://www.marketwatch.com/investing/stock/amzn');
 
-const stockMovement = await page.$eval('.fac-cc', el => el.childNodes[0].nodeValue)
-console.log(stockMovement);
-var percentage = stockMovement.split(" ")[0];
-percentage = parseInt(percentage);
-if(percentage > 10){
-  console.log("stock is rising up");
-  // you can send a slack message or log a test result here. 
-  sendToSlack('amazon stock rised by: ' + percentage + ' percent', null)
-}
+const stockprice = await page.$eval('bg-quote.value', el => el.childNodes[0].nodeValue)
+console.log(stockprice);
+
+// you can send a slack message or log a test result here. 
+sendToSlack('current amzn stock price: ' + stockprice, null)
 
 await page.screenshot({path: 'screenshot.png'});
 await browser.close();
